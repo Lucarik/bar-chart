@@ -1,5 +1,6 @@
 body {
     background: rgb(30,30,30);
+    color: white;
 }
 
 .bar {
@@ -8,7 +9,10 @@ body {
     margin: 2px;
     display: inline-block;
     background-color: black;
-  }
+}
+.bar:hover {
+    background-color: gray;
+}
 
 line {
     stroke: #555 !important;
@@ -16,4 +20,30 @@ line {
 
 path {
     stroke: #555 !important;
+}
+
+.text {
+    fill: white;
+}
+
+/* #tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+    background: lightsteelblue;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+} */
+.tooltip {
+    z-index: 2;
+}
+.tooltip-text {
+    color: gray;
 }
