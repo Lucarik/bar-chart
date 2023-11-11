@@ -1,5 +1,5 @@
 body {
-    background: lightgray;
+    background: rgb(30,30,30);
 }
 
 .bar {
@@ -9,3 +9,11 @@ body {
     display: inline-block;
     background-color: black;
   }
+
+line {
+    stroke: #555 !important;
+}
+
+path {
+    stroke: #555 !important;
+}
